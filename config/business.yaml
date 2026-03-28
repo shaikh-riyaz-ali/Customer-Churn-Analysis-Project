@@ -1,0 +1,56 @@
+data:
+
+  data_types:
+    customer_id: int
+    gender: str
+    age: int
+    tenure: int
+    monthly_charges: float
+    total_charges: float
+    contract_type: str
+    payment_method: str
+    internet_service: str
+    churn: str
+    signup_date: datetime
+
+  drop_na:
+    subset:
+      - customer_id
+      - churn
+
+  fillna:
+    gender: Unknown
+    age: median
+    tenure: median
+    monthly_charges: median
+    total_charges: median
+    contract_type: Unknown
+    payment_method: Unknown
+    internet_service: No Service
+
+  gender_mappings:
+    M: Male
+    F: Female
+
+  churn_mappings:
+    Y: Yes
+    N: No
+    True: Yes
+    False: No
+    "True": Yes
+    "False": No
+    "true": Yes
+    "false": No
+
+  contract_mappings:
+    Monthly: Month-to-Month
+    month-to-month: Month-to-Month
+    Month-to-month: Month-to-Month
+
+  date_parsing:
+    formats:
+      - "%Y-%m-%d"
+      - "%d/%m/%Y"
+      - "%m-%d-%Y"
+      - "%Y/%m/%d"
+    errors: coerce

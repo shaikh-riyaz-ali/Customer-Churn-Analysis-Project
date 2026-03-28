@@ -1,0 +1,91 @@
+2026-03-28 11:57:52,727 - INFO - pipeline started
+2026-03-28 11:57:52,727 - INFO - data extraction started
+2026-03-28 11:57:52,858 - INFO - data extraction completed
+2026-03-28 11:57:52,858 - INFO - pipeline started
+2026-03-28 11:57:52,860 - INFO - Column names whitespace removed
+2026-03-28 11:57:52,920 - INFO - Mappings applied
+2026-03-28 11:57:52,920 - INFO - customer_id converted to int
+2026-03-28 11:57:52,951 - INFO - gender converted to str
+2026-03-28 11:57:52,986 - INFO - age converted to int
+2026-03-28 11:57:52,987 - INFO - tenure converted to int
+2026-03-28 11:57:52,987 - INFO - monthly_charges converted to float
+2026-03-28 11:57:52,987 - INFO - total_charges converted to float
+2026-03-28 11:57:53,021 - INFO - contract_type converted to str
+2026-03-28 11:57:53,056 - INFO - payment_method converted to str
+2026-03-28 11:57:53,083 - INFO - internet_service converted to str
+2026-03-28 11:57:53,125 - INFO - churn converted to str
+2026-03-28 11:57:53,452 - INFO - signup_date parsed using multiple formats
+2026-03-28 11:57:53,452 - INFO - signup_date converted to datetime
+2026-03-28 11:57:53,459 - INFO - 22160 nulls filled in gender
+2026-03-28 11:57:53,467 - INFO - 5830 nulls filled in age
+2026-03-28 11:57:53,470 - INFO - 3729 nulls filled in tenure
+2026-03-28 11:57:53,473 - INFO - 2120 nulls filled in monthly_charges
+2026-03-28 11:57:53,475 - INFO - 2114 nulls filled in total_charges
+2026-03-28 11:57:53,482 - INFO - 22109 nulls filled in contract_type
+2026-03-28 11:57:53,488 - INFO - 22172 nulls filled in payment_method
+2026-03-28 11:57:53,494 - INFO - 52158 nulls filled in internet_service
+2026-03-28 11:57:53,577 - INFO - Duplicates removed: 2000
+2026-03-28 11:57:53,593 - INFO - Critical null rows removed: 4041
+2026-03-28 11:57:53,593 - INFO - Data cleaning completed
+2026-03-28 11:57:53,597 - ERROR - Data load failed: module 'os' has no attribute 'markdirs'
+2026-03-28 11:59:03,317 - INFO - pipeline started
+2026-03-28 11:59:03,317 - INFO - data extraction started
+2026-03-28 11:59:03,418 - INFO - data extraction completed
+2026-03-28 11:59:03,418 - INFO - pipeline started
+2026-03-28 11:59:03,419 - INFO - Column names whitespace removed
+2026-03-28 11:59:03,470 - INFO - Mappings applied
+2026-03-28 11:59:03,471 - INFO - customer_id converted to int
+2026-03-28 11:59:03,501 - INFO - gender converted to str
+2026-03-28 11:59:03,534 - INFO - age converted to int
+2026-03-28 11:59:03,535 - INFO - tenure converted to int
+2026-03-28 11:59:03,535 - INFO - monthly_charges converted to float
+2026-03-28 11:59:03,536 - INFO - total_charges converted to float
+2026-03-28 11:59:03,568 - INFO - contract_type converted to str
+2026-03-28 11:59:03,601 - INFO - payment_method converted to str
+2026-03-28 11:59:03,629 - INFO - internet_service converted to str
+2026-03-28 11:59:03,670 - INFO - churn converted to str
+2026-03-28 11:59:03,994 - INFO - signup_date parsed using multiple formats
+2026-03-28 11:59:03,994 - INFO - signup_date converted to datetime
+2026-03-28 11:59:04,001 - INFO - 22160 nulls filled in gender
+2026-03-28 11:59:04,004 - INFO - 5830 nulls filled in age
+2026-03-28 11:59:04,006 - INFO - 3729 nulls filled in tenure
+2026-03-28 11:59:04,009 - INFO - 2120 nulls filled in monthly_charges
+2026-03-28 11:59:04,011 - INFO - 2114 nulls filled in total_charges
+2026-03-28 11:59:04,018 - INFO - 22109 nulls filled in contract_type
+2026-03-28 11:59:04,025 - INFO - 22172 nulls filled in payment_method
+2026-03-28 11:59:04,031 - INFO - 52158 nulls filled in internet_service
+2026-03-28 11:59:04,099 - INFO - Duplicates removed: 2000
+2026-03-28 11:59:04,113 - INFO - Critical null rows removed: 4041
+2026-03-28 11:59:04,113 - INFO - Data cleaning completed
+2026-03-28 11:59:04,117 - ERROR - Data load failed: module 'os' has no attribute 'markedirs'
+2026-03-28 12:01:37,715 - INFO - pipeline started
+2026-03-28 12:01:37,716 - INFO - data extraction started
+2026-03-28 12:01:37,817 - INFO - data extraction completed
+2026-03-28 12:01:37,817 - INFO - pipeline started
+2026-03-28 12:01:37,818 - INFO - Column names whitespace removed
+2026-03-28 12:01:37,871 - INFO - Mappings applied
+2026-03-28 12:01:37,872 - INFO - customer_id converted to int
+2026-03-28 12:01:37,901 - INFO - gender converted to str
+2026-03-28 12:01:37,934 - INFO - age converted to int
+2026-03-28 12:01:37,934 - INFO - tenure converted to int
+2026-03-28 12:01:37,934 - INFO - monthly_charges converted to float
+2026-03-28 12:01:37,934 - INFO - total_charges converted to float
+2026-03-28 12:01:37,969 - INFO - contract_type converted to str
+2026-03-28 12:01:38,002 - INFO - payment_method converted to str
+2026-03-28 12:01:38,029 - INFO - internet_service converted to str
+2026-03-28 12:01:38,074 - INFO - churn converted to str
+2026-03-28 12:01:38,400 - INFO - signup_date parsed using multiple formats
+2026-03-28 12:01:38,400 - INFO - signup_date converted to datetime
+2026-03-28 12:01:38,406 - INFO - 22160 nulls filled in gender
+2026-03-28 12:01:38,409 - INFO - 5830 nulls filled in age
+2026-03-28 12:01:38,411 - INFO - 3729 nulls filled in tenure
+2026-03-28 12:01:38,414 - INFO - 2120 nulls filled in monthly_charges
+2026-03-28 12:01:38,416 - INFO - 2114 nulls filled in total_charges
+2026-03-28 12:01:38,422 - INFO - 22109 nulls filled in contract_type
+2026-03-28 12:01:38,429 - INFO - 22172 nulls filled in payment_method
+2026-03-28 12:01:38,435 - INFO - 52158 nulls filled in internet_service
+2026-03-28 12:01:38,501 - INFO - Duplicates removed: 2000
+2026-03-28 12:01:38,516 - INFO - Critical null rows removed: 4041
+2026-03-28 12:01:38,516 - INFO - Data cleaning completed
+2026-03-28 12:01:38,903 - INFO - Data sucessfully loaded to data/processed/clean_csv
+2026-03-28 12:01:38,904 - INFO - pipeline completed successfully
